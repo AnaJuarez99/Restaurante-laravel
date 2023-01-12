@@ -1,0 +1,303 @@
+:root{
+	--primario: rgb(0, 0, 0);
+	--secundario:rgba(255, 255, 255, 0.479) ;
+	--terciario: #cccccc;
+	--fuente:#7f7f81;
+	--fontnavbar:#fff;
+}
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+   }
+
+   html{
+	font-size: 6.25%;
+   }
+
+   body {
+	font-family: 'Cormorant SC';
+	font-size: 16px;
+   }
+
+   a {
+	text-decoration: none;
+   }
+
+   li {
+	list-style: none;
+   }
+/*CLASE MENU*/
+   .menu { 
+	display:flex;
+	position: absolute;
+	background-color:var(--primario);
+	right: 0;
+	text-align: center;
+	margin-top: -25rem;
+	
+   }
+
+   .menu li{
+	padding-right: 10rem;
+   }
+
+/* NAVBAR ESTILOS */
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10rem;
+	background-color: var(--primario);
+	color: var(--fontnavbar)
+   }
+   .nav-links a {
+	color: var(--fontnavbar);
+   }
+
+   header nav ul li {
+	font-family: 'Cormorant SC';
+	font-weight: bold;
+	font-size: 20rem;
+  }
+
+  
+
+   /* LOGO */
+   .logo {
+	font-size: 32rem;
+	float: left;
+   }
+
+   
+  /*Animaciones botones navbar*/
+	.btn-grow-skew {
+	background: var(--primario); /* color de fondo */
+	color: var(--fuente); /* color de fuente */
+	border: 2rem solid var(--terciario); /* tamaño y color de borde */
+	padding: 10rem 10rem;
+	border-radius: 3rem; /* redondear bordes */
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	display: inline-block;
+  }
+  .btn-grow-skew:hover {
+	color: var(--primario);/* color de fuente hover */
+  }
+  .btn-grow-skew::after {
+	content: "";
+	background: var(--terciario); /* color de fondo hover */
+	position: absolute;
+	z-index: -1;
+	padding: 16rem 20rem;
+	display: block;
+	left: -20%;
+	right: -20%;
+	top: 0;
+	bottom: 0;
+	transform: skewX(45deg) scale(0, 1); /*Skew:45deg, poneun ángulo de 45 grados y escale para que aparezca esa transicion*/
+	transition: all 0.3s ease;
+  }
+  .btn-grow-skew:hover::after {
+	transition: all 0.3s ease-out;
+	transform: skewX(45deg) scale(1, 1);
+  }
+
+
+
+/*NAVBAR RESPONSIVE*/
+/* CHECKBOX  */
+input[type=checkbox]{
+	display: none;
+   } 
+   /*MENU DESPLIEGUE*/
+   .hamburger {
+	display: none;
+	font-size: 24rem;
+	user-select: none;
+   }
+
+   
+
+/* APLICAMOS MEDIA */
+   @media (max-width: 768px) {
+   .menu { 
+	display:none;
+	position: absolute;
+	background-color:var(--primario);
+	right: 0;
+	text-align: center;
+	padding: 16rem 0;
+	width: 50vw;
+	z-index: 1;
+   }
+   
+   
+   .menu li + li {
+	margin-top: 12rem;
+	
+   }
+   input[type=checkbox]:checked ~ .menu{
+	display: block;
+	
+   }
+   .hamburger {
+	display: block;
+	padding-bottom: 25rem;
+   }
+
+
+
+   #youtube, #instagram, #facebook{
+	width: 30rem;
+	height: 20rem;
+	padding: 3rem;
+	margin-left: 5rem;
+  }
+  
+ 
+
+  hr{
+  color: var(--primario);
+  height: 2rem;
+  background-color: var(--primario);
+  }
+
+  
+
+  .confirm .resp,
+	.resp thead,
+	.resp tbody,
+	.resp tr,
+	.resp th,
+	.resp td,
+	.resp caption {
+	  display: block;
+	  text-align: center;
+	}
+	
+	.confirm .resp {
+	  border: none
+	}
+	
+	.resp thead tr {
+	  display: none;
+	}
+	
+	.resp tbody tr {
+	  margin: 1em 0;
+	  border: 1rem solid var(--primario);
+	}
+	
+	.resp td {
+	  border: none;
+	  border-bottom: 1rem solid var(--fontnavbar);
+	  position: relative;
+	  padding-left: 45%;
+	  text-align: left;
+	}
+	
+	.resp tr td:last-child {
+	  border-bottom: 1rem  var(--fontnavbar);
+	}
+	
+	.resp tr:last-child td:last-child {
+	  border: none;
+	}
+	
+	.resp td:before {
+	  position: absolute;
+	  top: 6rem;
+	  left: 6rem;
+	  width: 45%;
+	  padding-right: 10rem;
+	  white-space: nowrap;
+	  text-align: left;
+	  font-weight: bold;
+	}
+	.container {
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 25rem;
+		margin-top: -700rem;
+		
+		
+		
+	  }
+
+   }
+
+   /*FOOTER*/
+
+
+  #youtube, #instagram, #facebook{
+	width: 40rem;
+	height: 40rem;
+	padding: 3rem;
+	margin-left: 5rem;
+  }
+  
+
+/*Barra que divide body del footer*/
+  hr{
+  color: var(--primario);
+  height: 2rem;
+  background-color: var(--primario);
+  }
+
+
+  /*Body*/
+
+
+.contenedor2 {
+	position: relative;
+	display: inline-block;
+	opacity: 0.4;
+	width: 100%;
+	height: auto;
+   
+  }
+  .container6 {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -70%);
+    font-size: 25rem;
+	overflow:scroll;
+	height:400rem;
+	width:auto;
+    
+  }
+
+  .r {
+	font-size:40rem;
+	margin-bottom: 15rem;
+  }
+
+.resp tr{
+    height: 5rem;
+}
+.resp th{
+	font-weight: bold;
+}
+
+
+
+
+
+  .resp tr td img{
+	width: 10rem;
+	height:10rem;
+  }
+
+  
+  footer{
+	font-size: medium;
+  }
+
+  

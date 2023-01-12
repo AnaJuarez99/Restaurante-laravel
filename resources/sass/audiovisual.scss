@@ -1,0 +1,48 @@
+:root{
+	--primario: rgb(0, 0, 0);
+	--secundario:rgba(255, 255, 255, 0.479) ;
+	--terciario: #cccccc;
+	--fuente:#7f7f81;
+	--fontnavbar:#fff;
+}
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+   }
+
+   html{
+	font-size: 6.25%;
+   }
+
+   body {
+	font-family: 'Cormorant SC';
+	font-size: 16px;
+   }
+
+   a {
+	text-decoration: none;
+   }
+
+   li {
+	list-style: none;
+   }
+
+  .audios{
+    position: relative;
+    display: contents;
+    text-align: center;
+
+  }
+
+  .col source{
+   margin-left: 50rem;
+  }
+ 
+
+ .multimedia{
+   background-color: blue;
+ }

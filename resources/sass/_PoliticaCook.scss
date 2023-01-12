@@ -1,0 +1,192 @@
+:root{
+	--primario: rgb(0, 0, 0);
+	--secundario:rgba(255, 255, 255, 0.479) ;
+	--terciario: #cccccc;
+	--fuente:#7f7f81;
+	--fontnavbar:#fff;
+}
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+   }
+
+   html{
+	font-size: 6.25%;
+   }
+
+   body {
+	font-family: 'Cormorant SC';
+	font-size: 16px;
+   }
+
+   a {
+	text-decoration: none;
+   }
+
+   li {
+	list-style: none;
+   }
+/*CLASE MENU*/
+   .menu { 
+	display:flex;
+	position: absolute;
+	background-color:var(--primario);
+	right: 0;
+	text-align: center;
+	margin-top: -25rem;
+	
+   }
+
+   .menu li{
+	padding-right: 10rem;
+   }
+
+/* NAVBAR ESTILOS */
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10rem;
+	background-color: var(--primario);
+	color: var(--fontnavbar)
+   }
+   .nav-links a {
+	color: var(--fontnavbar);
+   }
+
+   header nav ul li {
+	font-family: 'Cormorant SC';
+	font-weight: bold;
+	font-size: 20rem;
+  }
+
+  
+
+   /* LOGO */
+   .logo {
+	font-size: 32rem;
+	float: left;
+   }
+  
+   
+  /*Animaciones botones navbar*/
+	.btn-grow-skew {
+	background: var(--primario); /* color de fondo */
+	color: var(--fuente); /* color de fuente */
+	border: 2rem solid var(--terciario); /* tamaño y color de borde */
+	padding: 10rem 10rem;
+	border-radius: 3rem; /* redondear bordes */
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	display: inline-block;
+  }
+  .btn-grow-skew:hover {
+	color: var(--primario);/* color de fuente hover */
+  }
+  .btn-grow-skew::after {
+	content: "";
+	background: var(--terciario); /* color de fondo hover */
+	position: absolute;
+	z-index: -1;
+	padding: 16rem 20rem;
+	display: block;
+	left: -20%;
+	right: -20%;
+	top: 0;
+	bottom: 0;
+	transform: skewX(45deg) scale(0, 1); /*Skew:45deg, poneun ángulo de 45 grados y escale para que aparezca esa transicion*/
+	transition: all 0.3s ease;
+  }
+  .btn-grow-skew:hover::after {
+	transition: all 0.3s ease-out;
+	transform: skewX(45deg) scale(1, 1);
+  }
+
+
+
+/*NAVBAR RESPONSIVE*/
+/* CHECKBOX  */
+input[type=checkbox]{
+	display: none;
+   } 
+   /*MENU DESPLIEGUE*/
+   .hamburger {
+	display: none;
+	font-size: 24rem;
+	user-select: none;
+   }
+
+   /* APLICAMOS MEDIA */
+   @media (max-width: 768px) {
+   .menu { 
+	display:none;
+	position: absolute;
+	background-color:var(--primario);
+	right: 0;
+	text-align: center;
+	padding: 16rem 0;
+	width: 50vw;
+	z-index: 1;
+   }
+   
+   
+   .menu li + li {
+	margin-top: 12rem;
+	
+   }
+   input[type=checkbox]:checked ~ .menu{
+	display: block;
+	
+   }
+   .hamburger {
+	display: block;
+	padding-bottom: 25rem;
+   }
+
+
+
+   #youtube, #instagram, #facebook{
+	width: 30rem;
+	height: 20rem;
+	padding: 3rem;
+	margin-left: 5rem;
+  }
+  
+ 
+
+  hr{
+  color: var(--primario);
+  height: 2rem;
+  background-color: var(--primario);
+  }
+
+  
+   }
+
+ 
+
+  #youtube, #instagram, #facebook{
+	width: 40rem;
+	height: 40rem;
+	padding: 3rem;
+	margin-left: 5rem;
+  }
+  
+
+/*Barra que divide body del footer*/
+  hr{
+  color: var(--primario);
+  height: 2rem;
+  background-color: var(--primario);
+  }
+
+ 
+
+footer{
+	font-size: medium;
+  }
