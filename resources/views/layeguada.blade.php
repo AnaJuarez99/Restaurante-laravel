@@ -38,16 +38,16 @@
 	<hr>
 	<div id="carta" class="container-sm"></div>
 		<div class="row">
-			<div class="col">
+			<div class="col-sm">
 				<img  src="./fotos/entrante.PNG" >
 			</div>
 	
 	
-			<div  class="col">
+			<div  class="col-sm">
 				<img src="./fotos/tierra.PNG" >
 			</div>
 	
-			<div  class="col">
+			<div  class="col-sm">
 				<img src="./fotos/tipico.PNG" >
 			</div>
 		</div>
