@@ -48,7 +48,7 @@
                 <nav class="navbar">
                     <!-- LOGO -->
                     <div class="logo">
-                        <img id="logo" src="./fotos/logoyeguadarecor.png">
+                        <img id="logo" src="./fotos/logoyeguadarecor.png" alt="logo">
                     </div>
                     <!--MENU NAVIGACION  -->
                     <ul class="nav-links">
@@ -85,9 +85,9 @@
     
                 <div class="col-12 col-xxl-4 text-center">
                     <p><b>SÍGUENOS EN REDES</b></p>
-                    <a href="https://www.youtube.com/"><img id="youtube" src="fotos/youtube.png"></a>
-                    <a href="https://es-es.facebook.com/"><img id="facebook" src="fotos/face.png"></a>
-                    <a href="https://www.instagram.com/"><img id="instagram" src="fotos/inst.png"></a>
+                    <a href="https://www.youtube.com/"><img id="youtube" src="fotos/youtube.png" alt="youtube"></a>
+                    <a href="https://es-es.facebook.com/"><img id="facebook" src="fotos/face.png" alt="facebook"></a>
+                    <a href="https://www.instagram.com/"><img id="instagram" src="fotos/inst.png" alt="instagram"></a>
                 </div>
                 <br>
                 <div class="col-12 col-xxl-4 text-center">

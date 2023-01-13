@@ -18,7 +18,7 @@
 	<div class="noticia">
 		<div >
 			<div >
-				<img class="derecha" src="./fotos/restaurant1.jpg" >
+				<img class="derecha" src="./fotos/restaurant1.jpg" alt="imagen_restaurante">
 			</div>
 
 			<div >
@@ -39,16 +39,16 @@
 	<div id="carta" class="container-sm"></div>
 		<div class="row">
 			<div class="col-sm">
-				<img  src="./fotos/entrante.PNG" >
+				<img  src="./fotos/entrante.PNG" alt="menu_entrante">
 			</div>
 	
 	
 			<div  class="col-sm">
-				<img src="./fotos/tierra.PNG" >
+				<img src="./fotos/tierra.PNG" alt="menu_tierra">
 			</div>
 	
 			<div  class="col-sm">
-				<img src="./fotos/tipico.PNG" >
+				<img src="./fotos/tipico.PNG" alt="menu_tipico">
 			</div>
 		</div>
 
