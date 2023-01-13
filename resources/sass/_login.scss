@@ -167,6 +167,47 @@ input[type=checkbox]{
 	  }
 
 
+
+
+	  .container {
+		margin-top: 60rem;
+		position: absolute;
+		transform: translate(-50%, -50%);
+		font-size: 25rem;
+		width: 250rem;
+		text-align: center;
+		
+	  }
+
+	  
+    
+	.formulario2 label{
+    
+        font-size:22rem;
+		text-align: center;
+		
+      }
+    
+     .formulario2 input{
+		text-align: center;
+		margin-left: 30rem;
+
+	 }
+
+	 .formulario2 a{
+		text-align: center;
+		margin-right: 30rem;
+
+	 }
+
+	 .btn{
+		margin-bottom: 10rem;
+		margin-top: 10rem;
+	 }
+
+
+
+
 }
 
 
@@ -217,8 +258,6 @@ input[type=checkbox]{
 	left: 50%;
 	transform: translate(-50%, -70%);
     font-size: 25rem;
-	
-	
     
   }
 
