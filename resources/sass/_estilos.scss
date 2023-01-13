@@ -166,22 +166,30 @@ input[type=checkbox]{
   }
   .centradoInit {
 	position: absolute;
-	margin-top: -730rem;
+	margin-top: -200rem;
 	text-align: center;
   }
   
   .centradoInit h1{
 	text-align: center;
-	font-size: 6vw;
+	font-size: 7vw;
   }
   .centradoInit p{
 	text-align: center;
-	font-size: 2vw;
+	font-size: 4vw;
   }
 
   .derecha{
 	display: none;
   }
+
+  .row .col img{
+	align-items: center;
+	height: 471rem;
+	width: 309rem;
+	margin: 50rem;
+  }
+  
   
    }
 
@@ -216,14 +224,10 @@ input[type=checkbox]{
 	opacity: 0.4;
 	width: 100%;
 	height: auto;
+	margin-top: -2rem;
 
   }
 
-  
-  
-
-  
- 
   
  .derecha {
 	margin-top: 10rem;
