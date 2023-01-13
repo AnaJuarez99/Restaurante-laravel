@@ -21,13 +21,13 @@
                 @csrf
 
                 <label for="nombre">Nombre</label><br>
-                <input type="text" id="lname" name="nombre" placeholder="Tu nombre" value="{{old('nombre')}}">
+                <input type="text" id="nombre" name="nombre"  placeholder="Tu nombre" value="{{old('nombre')}}">
 
                 @error('nombre')<p class="alert alert-danger mt-7"> {{$message}} @enderror </p>
 
                
                 <label for="asunto">Asunto</label><br>
-                <input type="text" id="lname" name="asunto" placeholder="Tu asunto" value="{{old('asunto')}}"><br>
+                <input type="text" id="asunto" name="asunto" placeholder="Tu asunto" value="{{old('asunto')}}"><br>
                 @error('asunto')<p class="alert alert-danger mt-7"> {{$message}} @enderror </p>
 
                 <div class="row">
@@ -47,7 +47,7 @@
             </div>
 
                 <label for="mensaje">Mensaje</label><br>
-                <input type="text" id="lname" name="mensaje" placeholder="Tu mensaje" value="{{old('mensaje')}}">
+                <input type="text" id="mensaje" name="mensaje" placeholder="Tu mensaje" value="{{old('mensaje')}}">
                 @error('mensaje') <p class="alert alert-danger mt-7"> {{$message}} @enderror </p>
                 <br>
                 <input type="submit" value="Submit" class="border">
