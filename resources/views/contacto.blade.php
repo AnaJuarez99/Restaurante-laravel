@@ -34,14 +34,14 @@
                     <div class="col">
                         <label for="email">Email</label>
                         <br>
-                        <input type="text" placeholder="Tu email" name="email" value="{{old('email')}}">
+                        <input type="text" id="email" placeholder="Tu email" name="email" value="{{old('email')}}">
                         @error('email') <p class="alert alert-danger mt-7"> {{$message}} @enderror </p>
                     </div>
                 <br>
                     <div class="col">
                         <label for="email_confirmation">Confirmacion email</label>
                         <br>
-                        <input type="email"  name="email_confirmation" placeholder="Tu email de confirmacion" >
+                        <input type="email" id="email_confirmation"  name="email_confirmation" placeholder="Tu email de confirmacion" >
                         @error('email de confirmacion') <p class="alert alert-danger mt-7"> {{$message}} @enderror </p>
                     </div>
             </div>
