@@ -17,7 +17,7 @@
 
         <div class="formulario3 text-align:center" >
             <form action="/contacto" method="POST">
-                <h1>CONTACTA CON NOSOTROS</h1>
+                <h1>CONTACTO</h1>
                 @csrf
 
                 <label for="nombre">Nombre</label><br>
