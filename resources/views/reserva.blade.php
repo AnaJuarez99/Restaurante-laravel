@@ -210,12 +210,12 @@
                     <div class="row">
                         <div class="col">
                             <label for="nombre" class="form-label">Nombre:</label>
-                            <input type="text" class="form-control" placeholder="Enter name" name="nombre" value="{{old('nombre')}}">
+                            <input type="text" id="nombre" class="form-control" placeholder="Enter name" name="nombre" value="{{old('nombre')}}">
                             @error('nombre')<p class="alert alert-danger mt-7"> {{$message}} @enderror </p>
                         </div>
                         <div class="col">
                             <label for="apellido" class="form-label">Apellidos:</label>
-                            <input type="text" class="form-control" placeholder="Enter last name" name="apellido" value="{{old('apellido')}}">
+                            <input type="text" id="apellido" class="form-control" placeholder="Enter last name" name="apellido" value="{{old('apellido')}}">
                             @error('apellido')<p class="alert alert-danger mt-7"> {{$message}} @enderror </p>
                         </div>
                         <br>
@@ -224,7 +224,7 @@
                     <div class="row">
                         <div class="col">
                             <label for="hora" class="form-label ">Hora:</label>
-                            <input type="time" class="hora" name="hora"  value="{{old('hora')}}">
+                            <input type="time" id="hora" class="hora" name="hora"  value="{{old('hora')}}">
                             @error('hora')<p class="alert alert-danger mt-7"> {{$message}} @enderror </p>
                         </div>
                     </div>
@@ -241,7 +241,7 @@
                         
                         <div class="col">
                             <label for="pwd" class="form-label">Móvil:</label>
-                            <input type="tel" class="hora" placeholder="Telephone" name="tel" value="{{old('tel')}}">
+                            <input type="tel" id="pwd" class="hora" placeholder="Telephone" name="tel" value="{{old('tel')}}">
                             @error('tel')<p class="alert alert-danger mt-7"> {{$message}} @enderror </p>
                         </div>
                     </div>
@@ -250,7 +250,7 @@
                     <div class="row">
                         <div class="col">
                             <label for="email" class="form-label">Email:</label>
-                            <input type="text" class="form-control" placeholder="Enter email" name="email" value="{{old('email')}}">
+                            <input type="text" id="email" class="form-control" placeholder="Enter email" name="email" value="{{old('email')}}">
                             @error('email')<p class="alert alert-danger mt-7"> {{$message}} @enderror </p>
 
                         </div>
@@ -264,7 +264,7 @@
                     <div class="row">
                         <div class="col">
                             <label for="tarjeta" class="form-label">Nº Tarjeta:</label>
-                            <input type="num" class="form-control" placeholder="Enter target" name="tarjeta" value="{{old('tarjeta')}}">
+                            <input type="num" id="tarjeta" class="form-control" placeholder="Enter target" name="tarjeta" value="{{old('tarjeta')}}">
                             @error('tarjeta')<p class="alert alert-danger mt-7"> {{$message}} @enderror </p>
                         </div>
                     </div>
