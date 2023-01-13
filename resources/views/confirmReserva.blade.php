@@ -47,7 +47,7 @@
 		
 				<div class="container6">
 					<h1 class="r"><u>MIS RESERVAS</u></h1>
-					<table class="confirm">
+					<table class="confirm ">
 						<thead class="resp">
 							<thead>
 								<tr>
