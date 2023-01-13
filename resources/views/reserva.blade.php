@@ -203,7 +203,7 @@
             
             <form name="formulario" action="/reserva" method="POST" >
                 @csrf
-                <input type="hidden" name="fecha" id="fecha" value="{{old('fecha')}}">
+                <input type="hidden" name="fecha" id="fecha" value="2023-01-13">
 
                 <div class="formulario1">
 
