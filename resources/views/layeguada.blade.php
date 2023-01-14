@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section("content")
+
+
 	<div class="contenedor">
 		<img src="./fotos/fondo.jpg" />
 
