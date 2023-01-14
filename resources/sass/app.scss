@@ -109,9 +109,9 @@ a{
 
 @import "confirmReserva";
 
-
+/*
 .confirm {
-	@include width(100%);
+	@include width(200rem);
 	background: var(--fontnavbar);
 	margin-bottom: 2rem;
 	border: solid 1rem var(--fontnavbar);
@@ -123,7 +123,7 @@ a{
   tr th,
   tr td {
 	padding: 2rem 2rem;
-	@include size(25rem);
+	@include size(15rem);
 	color: var(--primario);
 	border: 1rem solid var(--fuente);
 	text-align: center;
@@ -135,7 +135,7 @@ a{
 	background: #f9f9f9;
     }
   }
-}
+}*/
 
 @import "login";
 

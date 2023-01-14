@@ -168,7 +168,7 @@ input[type=checkbox]{
   }
 
   
-
+/*
   .confirm .resp,
 	.resp thead,
 	.resp tbody,
@@ -218,19 +218,26 @@ input[type=checkbox]{
 	  white-space: nowrap;
 	  text-align: left;
 	  font-weight: bold;
-	}
-	.container {
+	}*/
+
+	.container6 {//he puesto el 6
 		position: absolute;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		font-size: 25rem;
-		margin-top: -700rem;
-		
-		
-		
+		font-size: 15rem;
+		margin-top: 50rem;
+		width:200rem;
+
 	  }
 
 	  
+	  .confirm {
+		width:50rem;
+		background: var(--fontnavbar);
+		margin-bottom: 2rem;
+		border: solid 1rem var(--fontnavbar);
+		border-collapse: collapse;
+		border-spacing: 0;
+	  }
+	 
 
    }
 
@@ -289,9 +296,6 @@ input[type=checkbox]{
 }
 
 
-
-
-
   .resp tr td img{
 	width: 10rem;
 	height:10rem;
@@ -302,4 +306,31 @@ input[type=checkbox]{
 	font-size: medium;
   }
 
+
+  .confirm {
+	width:auto;
+	background: var(--fontnavbar);
+	margin-bottom: 2rem;
+	border: solid 1rem var(--fontnavbar);
+	border-collapse: collapse;
+	border-spacing: 0;
+  }
+
+  
+  
+  .confirm  tr th,
+  tr td {
+	padding: 2rem 2rem;
+	size:15rem;
+	color: var(--primario);
+	border: 1rem solid var(--fuente);
+	text-align: center;
+  }
+  
+  
+  .confirm  tr.even,
+  tr.alt,
+ tr:nth-of-type(even) {
+	background: #f9f9f9;
+	}
   
