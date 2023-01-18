@@ -10,7 +10,7 @@
 			<p>Restaurante especializado en cocina tradicional cordobesa.</p>
 
 			<p> En La Yeguada te ofrecemos lo mejor de la gastronomía cordobesa, con los platos más
-				tradicionales, las tapas más suculentas y los más exquisitos vinos de la tierr.</p>
+				tradicionales, las tapas más suculentas y los más exquisitos vinos de la tierra.</p>
 
 
 		</div>
