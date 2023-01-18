@@ -36,8 +36,26 @@
        
     
         <title>LA YEGUADA</title>
-    
+<!--
+        <style>
+            /*hojasauditivas*/
+        h1, h2{
+            voice-family: paul;  
+            voice-stress: moderate; 
+            stress: 20;
+            richness: 90;
+            cue-before: url("ping.au")
+        }
+        p {  
+            voice-family: female;  
+            voice-balance: left;  
+            voice-pitch: high;  
+            voice-volume: -6dB;  
+            }
+        </style>
+    -->
 
+    
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
