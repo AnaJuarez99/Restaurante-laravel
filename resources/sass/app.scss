@@ -158,7 +158,7 @@ a{
 input{
 	margin-left: 10rem;
 	@include width(200rem);
-    @include height(30rem);
+  @include height(30rem);
 	@include size(15rem);
   border: 2rem solid  grey;
   
@@ -177,6 +177,7 @@ input{
       label, input{
     
         @include size(22rem);
+        margin-top: 10rem;
       }
     
        button{

@@ -67,7 +67,7 @@
                 <nav class="navbar">
                     <!-- LOGO -->
                     <div class="logo">
-                        <img id="logo" src="./fotos/logoyeguadarecor.png" alt="logo">
+                       <a href="{{ route('/') }}"> <img id="logo" src="./fotos/logoyeguadarecor.png" alt="logo"></a> 
                     </div>
                     <!--MENU NAVIGACION  -->
                     <ul class="nav-links">
@@ -76,11 +76,11 @@
                         <label for="checkbox_toggle" class="hamburger">&#9776;</label>
                         <!--MENUS NAVIGACION  -->
                         <div class="menu">
-                            <li><a class="btn-grow-skew" href="{{ route('/') }}">Inicio</a></li>
+                           <!-- <li><a class="btn-grow-skew" href="{{ route('/') }}">Inicio</a></li>-->
                             <!--<li><a class="btn-grow-skew" href="{{ route('reserva') }}">Reservas</a></li>-->
                             <li><a class="btn-grow-skew" href="{{ route('reserva2') }}">Reservas</a></li>
                             <li><a class="btn-grow-skew" href="{{ route('/') }}#carta">Carta</a></li>
-                            <li><a class="btn-grow-skew" href="{{ route('audiovisual') }}">MultiMedia</a></li>
+                           <!-- <li><a class="btn-grow-skew" href="{{ route('audiovisual') }}">MultiMedia</a></li>-->
                             <li><a class="btn-grow-skew" href="{{ route('login') }}">Login</a></li>
                             <li><a class="btn-grow-skew" href="{{ route('contacto') }}">Contacto</a></li>
                         </div>
