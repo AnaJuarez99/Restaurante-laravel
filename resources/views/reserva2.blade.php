@@ -115,10 +115,10 @@
                     });
                 },*/
                 eventClick: function (event) {
-                var eventDelete = confirm("Estás seguro?");
+              
                 var start = $.fullCalendar.formatDate(event.start, "Y-MM-DD");
 
-                if (eventDelete) {
+                
                     $.ajax({
                         
                         type: "POST",
@@ -145,7 +145,7 @@
                         }
                     });
                        }
-                      }
+                      
             });
         });
         function displayMessage(message) {
