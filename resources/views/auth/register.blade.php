@@ -3,14 +3,14 @@
 @section('content')
 <div >
     <img class="contenedor2" src="./fotos/fondo_login.jpg" />
-        <div class="container">
+        <div class="container0">
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <div class="card">
                         <div class="card-header">{{ __('Registro') }}</div>
 
                         <div class="card-body">
-                            <form method="POST" action="{{ route('register') }}" class="formulario2">
+                            <form method="POST" action="{{ route('register') }}" class="formulario4">
                                 @csrf
 
                                 <div class="row mb-3">
@@ -93,7 +93,7 @@
 
                                 <div class="row mb-0">
                                     <div class="col-md-6 offset-md-4">
-                                        <button type="submit" class="btn btn-secondary">
+                                        <button type="submit" id="btnRegistro" class="btn btn-secondary">
                                             {{ __('Register') }}
                                         </button>
                                     </div>

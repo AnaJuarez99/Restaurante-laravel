@@ -175,6 +175,14 @@ input[type=checkbox]{
 		text-align: center;
 		
 	  }
+	  .container0 {
+		margin-top: 60rem;
+		position: absolute;
+		font-size: 25rem;
+		width: 350rem;
+		text-align: center;
+		
+	  }
 
     
 	.formulario2 label{
@@ -196,11 +204,36 @@ input[type=checkbox]{
 
 	 }
 
-	 .btn{
+ 	.btn{
 		margin-bottom: 10rem;
 		margin-top: 10rem;
 	 }
 
+	 .formulario4 input{
+		text-align: center;
+		margin-left: 80rem;
+		margin-top: -10rem;
+
+	 }
+
+	 .formulario4 a{
+		text-align: center;
+		margin-right: 30rem;
+
+	 }
+
+
+	 #btnRegistro{
+		width: 100rem;
+		height: 30rem;
+		font-size: 25rem;
+
+	 }
+	 .formulario4 label{
+		
+		margin-top: 5rem;
+
+	 }
 
 
 
@@ -258,6 +291,16 @@ input[type=checkbox]{
     
   }
 
+  .container0 {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -70%);
+    font-size: 25rem;
+	
+    
+  }
+
   input{
 	margin-left: 10rem;
 	@include width(200rem);
@@ -270,3 +313,5 @@ input[type=checkbox]{
   footer{
 	font-size: medium;
   }
+
+  
