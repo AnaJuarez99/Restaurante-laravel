@@ -51,7 +51,6 @@ class ReservaController extends Controller
         $this-> validate($request,[
             'nombre'=> 'required| min:3| max:30',
             'apellido'=> 'required| min:5| max:120',
-            'hora'=> 'required',
             'persona'=> 'required',
             'tel'=> 'required| min:0| max:9',
             'email'=> 'required| min:5| max:120',

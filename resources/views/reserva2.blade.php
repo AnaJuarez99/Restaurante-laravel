@@ -134,7 +134,7 @@
                             element.innerHTML='';
                             response.forEach(function (response){
                             
-                            element.insertAdjacentHTML("afterbegin","<a href='/reserva'>"+response['hora']+"</a></br>")
+                            element.insertAdjacentHTML("afterbegin","<a href='/reserva'><button style='border:black 2px solid ' >"+response['hora']+"</button></a></br>")
                             
                             });
                             $('html,body').animate({

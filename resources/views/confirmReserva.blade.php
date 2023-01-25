@@ -56,7 +56,7 @@
 										<th>Fecha</th>
 										<th>Hora</th>
 										<th>Menú</th>
-										<th>Comensales</th>
+										<th>Personas</th>
 										<th>Precio Menú</th>
 										<th>Precio Total</th>
 										<th>Opciones</th>

@@ -224,13 +224,13 @@ input[type=checkbox]{
 		position: absolute;
 		font-size: 15rem;
 		margin-top: 50rem;
-		width:200rem;
+		width:350rem;
 
 	  }
 
 	  
 	  .confirm {
-		width:50rem;
+		
 		background: var(--fontnavbar);
 		margin-bottom: 2rem;
 		border: solid 1rem var(--fontnavbar);
@@ -269,19 +269,10 @@ input[type=checkbox]{
 	opacity: 0.4;
 	width: 100%;
 	height: auto;
+	margin-right: -2rem;
    
   }
-  .container6 {
-	position: absolute;
-	top: 60%;
-	left: 50%;
-	transform: translate(-50%, -70%);
-    font-size: 25rem;
-	overflow:scroll;
-	height:400rem;
-	width:auto;
-    
-  }
+ 
 
   .r {
 	font-size:40rem;
@@ -306,9 +297,19 @@ input[type=checkbox]{
 	font-size: medium;
   }
 
-
+  .container6 {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -70%);
+    font-size: 25rem;
+	overflow:scroll;
+	height:400rem;
+	
+    
+  }
   .confirm {
-	width:auto;
+	
 	background: var(--fontnavbar);
 	margin-bottom: 2rem;
 	border: solid 1rem var(--fontnavbar);

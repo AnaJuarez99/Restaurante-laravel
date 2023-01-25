@@ -221,13 +221,13 @@
                         <br>
                     </div>
 
-                    <div class="row">
+                   <!-- <div class="row">
                         <div class="col">
                             <label for="hora" class="form-label ">Hora:</label>
                             <input type="time" id="hora" class="hora" name="hora"  value="{{old('hora')}}">
                             @error('hora')<p class="alert alert-danger mt-7"> {{$message}} @enderror </p>
                         </div>
-                    </div>
+                    </div>-->
                     <div class="row">
                         <div class="col">
                             <label for="persona" class="form-label">Personas:</label>
@@ -275,7 +275,7 @@
                             <button class="reservar" type="submit" >RESERVAR </button>
                             <br>
                         
-                            <a class="misreservas"  href="{{route('confirmReserva')}}">MIS RESERVAS </a>
+                            <!--<a class="misreservas"  href="{{route('confirmReserva')}}">MIS RESERVAS </a>-->
 
                         </div>
                     

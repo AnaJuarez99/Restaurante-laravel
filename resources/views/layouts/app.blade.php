@@ -78,6 +78,10 @@
                         <div class="menu">
                            <!-- <li><a class="btn-grow-skew" href="{{ route('/') }}">Inicio</a></li>-->
                             <!--<li><a class="btn-grow-skew" href="{{ route('reserva') }}">Reservas</a></li>-->
+                            <li> @if(Auth::check())
+                                <a class="btn-grow-skew" href="{{route('confirmReserva')}}">Mis reservas</a>
+                            @endif</li>
+                           
                             <li><a class="btn-grow-skew" href="{{ route('reserva2') }}">Reservas</a></li>
                             <li><a class="btn-grow-skew" href="{{ route('/') }}#carta">Carta</a></li>
                            <!-- <li><a class="btn-grow-skew" href="{{ route('audiovisual') }}">MultiMedia</a></li>-->
