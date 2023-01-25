@@ -140,12 +140,10 @@
                             $('html,body').animate({
                                 scrollTop: $("#bloqueHoras").offset().top},
                                 'slow');
-                           
-                            
+
                         }
                     });
-                       }
-                      
+                    }
             });
         });
         function displayMessage(message) {
