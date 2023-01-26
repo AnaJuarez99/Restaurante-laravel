@@ -19,15 +19,15 @@
                     
                     <div id='full_calendar_events' class="micalendar"></div>
 
-                       
-                    </div>
-
-                    
-                    <div id="bloqueHoras" class="d-none" style="background-color: rgb(0, 0, 0)">
+                       <div id="bloqueHoras" class="d-none" style="background-color: rgb(0, 0, 0)">
                         <p style="color: white">HORAS DISPONIBLES</p>
                         <div id="horas" style="background-color: rgb(216, 216, 216)">
                         </div>
-                    </div>
+                    </div> 
+                </div>
+
+                    
+                   
                     
                     
                     
@@ -134,7 +134,7 @@
                             element.innerHTML='';
                             response.forEach(function (response){
                             
-                            element.insertAdjacentHTML("afterbegin","<a href='/reserva'><button style='border:black 2px solid ' >"+response['hora']+"</button></a></br>")
+                            element.insertAdjacentHTML("afterbegin","<a href='/reserva'><button style='border:black 2px solid' >"+response['hora']+"</button></a></br>")
                             
                             });
                             $('html,body').animate({
