@@ -21,6 +21,7 @@
    body {
 	font-family: 'Cormorant SC';
 	font-size: 16px;
+	
    }
 
    a {
@@ -169,15 +170,16 @@ input[type=checkbox]{
 
 	 
 	  .container0 {
-		margin-top: 80rem;
+		margin-top: 60rem;
 		position: absolute;
 		font-size: 25rem;
 		width: 330rem;
 		text-align: center;
-		
+		overflow-x: hidden;
+
 	  }
 
-    
+	 
 	
 
  	.btn{
@@ -190,21 +192,26 @@ input[type=checkbox]{
 		width: 170rem;
 		height: 35rem;
 		font-size: 25rem;
-		margin-right: 67rem;
+		margin-right: 140rem;
 
 	 }
 	 #lab{
-		
+		font-size: 20rem;
 		margin-top: 5rem;
-		margin-left: -70rem;
+		margin-left: -120rem;
 		margin-bottom: -20rem;
 
 	 }
- .formulario4 input{
-		text-align: center;
-		margin-left: 80rem;
 
-	 }
+
+
+	.formulario4 input{
+			text-align: center;
+			margin-left: 80rem;
+			@include width(160rem);
+		@include height(25rem);
+
+		}
 
 	 .formulario4 a{
 		text-align: center;
@@ -212,7 +219,7 @@ input[type=checkbox]{
 
 	 }
 
-	 
+	
 
 }
 
@@ -251,8 +258,8 @@ input[type=checkbox]{
 	display: inline-block;
 	width: 100vw;
 	height: 75vh;
-	margin: -8rem;
-	padding-top: 7rem;
+	margin: -1rem;
+	padding-top: 0rem;
 	
   }
  
@@ -284,9 +291,10 @@ input[type=checkbox]{
   
 //Registro
 .formulario4{
+	width: 550rem;
+	
+}
 
-	@include width(500rem);
-  }
   .formulario4 h1{
 		@include size(30rem);
 		margin-bottom: 30rem;
