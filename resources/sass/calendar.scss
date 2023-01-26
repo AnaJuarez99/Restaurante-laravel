@@ -23,7 +23,7 @@
     background-color: var(--color-bg-calendar);
     border-radius: 3px;
     height: auto;
-    max-width: 300px;
+
     font-family: sans-serif;
     margin-bottom: 180rem;
     margin-right: 50rem;
@@ -87,3 +87,22 @@
     cursor: not-allowed;
 }
 
+.micalendar{
+  
+    margin-top: 400rem;
+    
+    
+  }
+  
+
+ /* APLICAMOS MEDIA */
+
+ @media (max-width: 768px) {
+    .micalendar{
+  
+        margin-top: 400rem;
+        width: 300rem;
+        overflow: hidden;
+       
+      }
+ }

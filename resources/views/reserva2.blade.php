@@ -17,7 +17,7 @@
                     
                     
                     
-                    <div id='full_calendar_events' class="micalendar"></div>
+                    <div id='full_calendar_events' class="micalendar overflow-auto"></div>
 
                        <div id="bloqueHoras" class="d-none" style="background-color: rgb(0, 0, 0)">
                         <p style="color: white">HORAS DISPONIBLES</p>

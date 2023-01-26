@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded',function(){
    let calendar = new Calendar(calendarEl, {
     plugins: [bootstrap5Plugin, dayGridPlugin, timeGridPlugin, listPlugin],
     initialview: 'dayGridMonth', 
+    contentHeight: 400,
     headerToolbar: {
         left: 'prev,next today',
         center: 'title',
