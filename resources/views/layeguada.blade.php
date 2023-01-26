@@ -6,9 +6,9 @@
 		<img src="./fotos/fondo.jpg" />
 
 		<div class="centradoInit">
-			<h1>LA YEGUADA</h1>
+			<h1 class="center1">LA YEGUADA</h1>
 			
-			<p> En La Yeguada te ofrecemos lo mejor de la gastronomía cordobesa, con los platos más
+			<p class="center2"> En La Yeguada te ofrecemos lo mejor de la gastronomía cordobesa, con los platos más
 				tradicionales, las tapas más suculentas y los más exquisitos vinos de la tierra.</p>
 
 
@@ -21,9 +21,9 @@
 			
 
 			<div >
-				<h1>Disfruta de una experiencia culinaria</h1>
+				<h1 class="tit">Disfruta de una experiencia culinaria</h1>
 				<hr>
-				<p>Nuestra cocina es la máxima expresión de nuestro
+				<p class="parr">Nuestra cocina es la máxima expresión de nuestro
 					amor por la gastronomía y el trabajo bien hecho.
 				</p>
 			</div>

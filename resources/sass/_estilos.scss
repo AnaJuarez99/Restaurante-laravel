@@ -172,11 +172,26 @@ input[type=checkbox]{
   
   .centradoInit h1{
 	text-align: center;
-	font-size: 7vw;
+	font-size: 24rem;
   }
   .centradoInit p{
 	text-align: center;
-	font-size: 5vw;
+	font-size: 14.5rem;
+  }
+
+  .noticia h1{
+	font-size: 30rem;
+	margin-left: 15rem;
+	margin-top: 15rem;
+	
+  }
+  
+  .noticia p{
+	font-size: 20rem;
+	margin-right: 10rem;
+	margin-bottom: 30rem;
+	margin-left: 15rem;
+	margin-top: 15rem;
   }
 
   .derecha{
@@ -242,17 +257,16 @@ input[type=checkbox]{
 
  
 
-  .noticia h1{
+  .tit{
 	font-size: 50rem;
-	margin-right: 100rem;
 	margin-left: 50rem;
 	margin-top: 15rem;
 	
   }
   
-  .noticia p{
+  .parr{
 	font-size: 30rem;
-	margin-right: 100rem;
+
 	margin-bottom: 50rem;
 	margin-left: 50rem;
 	margin-top: 15rem;

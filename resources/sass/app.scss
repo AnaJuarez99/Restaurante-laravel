@@ -53,21 +53,21 @@ html{
 	left: 50%;
 	transform: translate(-50%, -50%);
   
-  
-  h1{
+  }
+  .center1{
 	text-align: center;
     @include size(6vw);
 	
   }
 	
   
-  p{
+  .center2{
 	text-align: center;
 	@include size(2vw);
 	
     }
   
-}
+
 
 
 @import "reserva";
