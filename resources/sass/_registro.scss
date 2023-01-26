@@ -167,35 +167,18 @@ input[type=checkbox]{
 	  }
 
 
-	  .container {
-		margin-top: 60rem;
+	 
+	  .container0 {
+		margin-top: 80rem;
 		position: absolute;
 		font-size: 25rem;
-		width: 350rem;
+		width: 330rem;
 		text-align: center;
 		
 	  }
-	 
 
     
-	.formulario2 label{
-    
-        font-size:22rem;
-		text-align: center;
-		
-      }
-    
-     .formulario2 input{
-		text-align: center;
-		margin-left: 80rem;
-
-	 }
-
-	 .formulario2 a{
-		text-align: center;
-		margin-right: 30rem;
-
-	 }
+	
 
  	.btn{
 		margin-bottom: 10rem;
@@ -203,7 +186,33 @@ input[type=checkbox]{
 	 }
 
 
+	 #btnRegistro{
+		width: 170rem;
+		height: 35rem;
+		font-size: 25rem;
+		margin-right: 67rem;
 
+	 }
+	 #lab{
+		
+		margin-top: 5rem;
+		margin-left: -70rem;
+		margin-bottom: -20rem;
+
+	 }
+ .formulario4 input{
+		text-align: center;
+		margin-left: 80rem;
+
+	 }
+
+	 .formulario4 a{
+		text-align: center;
+		margin-right: 30rem;
+
+	 }
+
+	 
 
 }
 
@@ -249,7 +258,7 @@ input[type=checkbox]{
  
  
 
-  .container {
+  .container0 {
 	position: absolute;
 	top: 60%;
 	left: 50%;
@@ -258,8 +267,6 @@ input[type=checkbox]{
 	
     
   }
-
-  
 
   input{
 	margin-left: 10rem;
@@ -275,3 +282,39 @@ input[type=checkbox]{
   }
 
   
+//Registro
+.formulario4{
+
+	@include width(500rem);
+  }
+  .formulario4 h1{
+		@include size(30rem);
+		margin-bottom: 30rem;
+	}
+	
+	.formulario4  label{
+	
+		@include size(22rem);
+		margin-top: 10rem;
+		margin-left: -35rem;
+		
+	  }
+	  .formulario4 input{
+	
+		@include size(22rem);
+		margin-top: 18rem;
+		
+	  }
+	
+	  .formulario4  button{
+		@include width(170rem);
+	  @include height(30rem);
+		@include size(22rem);
+		margin-left: -90rem;
+		}
+  
+		.formulario4 a{
+		  margin-top: 10rem;
+		  padding-left: 50rem;
+		  @include size(18rem);
+		}
