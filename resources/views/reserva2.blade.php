@@ -17,7 +17,7 @@
                     
                     
                     
-                    <div id='full_calendar_events' class="micalendar">
+                    <div id='full_calendar_events' class="micalendar"></div>
 
                        
                     </div>
