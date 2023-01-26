@@ -6,8 +6,6 @@
 			<div >
 				<img class="contenedor2" src="./fotos/fondo.jpg" />
 
-
-				
 					<div class="container6">
 						<h1 class="r"><u>MIS RESERVAS</u></h1>
 						<table class="table-bordered">
