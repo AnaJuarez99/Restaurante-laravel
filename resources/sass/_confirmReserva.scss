@@ -237,7 +237,39 @@ input[type=checkbox]{
 		border-collapse: collapse;
 		border-spacing: 0;
 	  }
-	 
+
+	  .container h2{
+		margin-top: -200rem;
+	  }
+/*
+	  .table-responsive-stack{
+	
+margin-left: -10rem;
+	  }
+
+	  .table-responsive-stack tr {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column;
+		
+		display:block;
+		
+	 }
+	 //  IE9 FIX   
+	 .table-responsive-stack td {
+		float: left\9;
+		width:100%;
+		font-size: 16rem;
+		
+		
+	 }
+	 .table-responsive-stack th{
+		font-size: 16rem;
+		border: 1.5px solid rgb(0, 0, 0);
+		margin-left: 2rem;
+
+	 }*/
 
    }
 
@@ -339,3 +371,34 @@ input[type=checkbox]{
 	text-align: center;
 	
 }
+
+
+/*
+///nconfipenoengenwp
+.table-responsive-stack tr {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+			flex-direction: row;
+  }
+  
+  
+  .table-responsive-stack td,
+  .table-responsive-stack th {
+	 display:block;
+        
+	// flex-grow | flex-shrink | flex-basis   
+	 -ms-flex: 1 1 auto;
+	  flex: 1 1 auto;
+  }
+  
+  .table-responsive-stack .table-responsive-stack-thead {
+	 font-weight: bold;
+  }
+  
+ 
+  */
+  
