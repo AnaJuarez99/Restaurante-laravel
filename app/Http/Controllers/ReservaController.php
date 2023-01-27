@@ -171,13 +171,11 @@ class ReservaController extends Controller
             $deleteFinal=Reserva::find($delete);
             if($deleteFinal!=null){
                 $deleteFinal->delete();
+                $deleteReser="Se ha cancelado la reserva";
             }else{
-                
+                $deleteReser="Cancelación fallida";
             }
-
-            return view('confirmReserva')->with(["reser"=>Reserva::where('id_cliente',$id_cliente)->get()]);
-     
-         
+            return view('confirmReserva')->with(["reser"=>Reserva::where('id_cliente',$id_cliente)->get()])->with(["show"=>$deleteReser]);
          }else{
      
              return view('layeguada');

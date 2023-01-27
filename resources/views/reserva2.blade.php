@@ -126,7 +126,7 @@
                            
                             response.forEach(function (response){
                             
-                            element.insertAdjacentHTML("afterbegin","<input id='id"+contador+"' value='"+response['id']+"' type='hidden'>"+""+"</input><input id='data' value='"+start+"' type='hidden'>"+""+"</input> <a><button style='border:black 2px solid' id='"+contador+"' value='"+response['hora']+"' onClick='datos(this)'>"+response['hora']+"</button></a></br>")
+                            element.insertAdjacentHTML("afterbegin","<input id='id"+contador+"' value='"+response['id']+"' type='hidden'>"+""+"</input><input id='data' value='"+start+"' type='hidden'>"+""+"</input> <a class='btnhora'><button  style='border:black 2px solid' id='"+contador+"' value='"+response['hora']+"' onClick='datos(this)'>"+response['hora']+"</button></a></br>")
                             contador++;
                             });
                             $('html,body').animate({
