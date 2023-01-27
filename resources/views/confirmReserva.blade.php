@@ -74,7 +74,7 @@
 										@csrf
 										<td>
 											<input type="hidden" id="cancel" name="cancel" value="{{$r->id}}">
-											<button type="submit">Cancelar</button>
+											<button class="cancelar" type="submit">Cancelar</button>
 										</td>
 									</form>
 									
