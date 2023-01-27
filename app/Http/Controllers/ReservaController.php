@@ -160,6 +160,32 @@ class ReservaController extends Controller
        // return view('confirmReserva')->with(["reser"=>Reserva::all()]);
     }
 
+    public function cancelReserva(Request $request)
+    {
+        
+        if(Auth::user()){
+            $id_cliente=Auth::user()->id;
+            $delete=$request->get('cancel');
+
+            $deleteReser="";
+            $deleteFinal=Reserva::find($delete);
+            if($deleteFinal!=null){
+                $deleteFinal->delete();
+            }else{
+                
+            }
+
+            return view('confirmReserva')->with(["reser"=>Reserva::where('id_cliente',$id_cliente)->get()]);
+     
+         
+         }else{
+     
+             return view('layeguada');
+     
+         }
+
+    }
+
     /**
      * Display the specified resource.
      *

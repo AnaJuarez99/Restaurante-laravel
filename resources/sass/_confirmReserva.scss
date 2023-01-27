@@ -369,7 +369,11 @@ margin-left: -10rem;
   
 .table-bordered th{
 	text-align: center;
+	border: 1px solid black;
 	
+}
+.table-bordered{
+	background-color: white;
 }
 
 

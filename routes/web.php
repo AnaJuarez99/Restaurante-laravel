@@ -83,6 +83,7 @@ Route::post('/loginpag', [LoginpagController::class, 'store']);
 
 
 Route::get('/confirmReserva', [ReservaController::class, 'showAll'])->name('confirmReserva');
+Route::post('/confirmReserva', [ReservaController::class, 'cancelReserva']);
 
 Route::get('calendar-event', [CalenderController::class, 'index']);
 Route::post('calendar-crud-ajax', [CalenderController::class, 'calendarEvents']);

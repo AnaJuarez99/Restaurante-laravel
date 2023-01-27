@@ -70,7 +70,15 @@
 									<td>{{$r->num_personas}}</td>
 									<td>{{$r->menu->precio}}</td>
 									<td>{{$r->menu->precio*$r->num_personas}}</td>
-									<td>option</td>
+									<form action="/confirmReserva" method="POST" id="reservation">
+										@csrf
+										<td>
+											<input type="hidden" id="cancel" name="cancel" value="{{$r->id}}">
+											<button type="submit">Cancelar</button>
+										</td>
+									</form>
+									
+									
 									
 								</tr>
 									
