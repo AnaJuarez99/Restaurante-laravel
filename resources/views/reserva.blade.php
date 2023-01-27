@@ -244,13 +244,15 @@
                             </select>
                             @error('persona')<p class="alert alert-danger mt-7"> {{$message}} @enderror </p>
                         </div>
-                        
+                    </div>    
+                    <div class="row">
                         <div class="col">
                             <label for="pwd" class="form-label">Móvil:</label>
                             <input type="tel" id="pwd" class="hora" placeholder="Telephone" name="tel" value="{{old('tel')}}">
                             @error('tel')<p class="alert alert-danger mt-7"> {{$message}} @enderror </p>
                         </div>
                     </div>
+                    
 
 
                     <div class="row">
