@@ -56,6 +56,8 @@ class ReservaController extends Controller
             'email'=> 'required| min:5| max:120',
             'tarjeta'=> 'required| min:16| max:16',
             'fecha'=> 'required| min:1',
+            'hora'=> 'required',
+            'id'=> 'required',
 
         ]);
 
@@ -109,7 +111,7 @@ class ReservaController extends Controller
             'id_menu'=>1,
             'id_mesa'=>1,
             'num_tarjeta' =>$request->get('tarjeta'),
-            'fecha_reserva' =>1,
+            'fecha_reserva' =>$request->get("id"),
             'num_personas' =>$request->get('persona'),
 
         ]);

@@ -203,9 +203,15 @@
             
             <form name="formulario" action="/reserva" method="POST" >
                 @csrf
-                <input type="hidden" name="fecha" id="fecha" value="2023-01-13">
+                <input type="hidden" name="fecha" id="fecha" value="">
+                <input type="hidden" name="hora" id="hora" value="">
+                <input type="hidden" name="id" id="id" value="">
+
+                
 
                 <div class="formulario1">
+                    <input id="mostrarHora" value="" type="text" disabled>
+
 
                     <div class="row">
                         <div class="col">
@@ -258,8 +264,6 @@
                         
                             
 
-                        
-
                     </div>
                     <div class="row">
                         <div class="col">
@@ -294,6 +298,24 @@
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        var url= new URLSearchParams(window.location.search);
+        var date =document.getElementById("fecha");
+        var hora =document.getElementById("hora");
+        var idHour =document.getElementById("id");
+
+        var saveDate= url.get("date");
+        var saveHora= url.get("hora");
+        var saveId= url.get("id");
+
+        date.value= saveDate;
+        hora.value= saveHora;
+        idHour.value= saveId;
+
+        document.getElementById("mostrarHora").value="La fecha elegida es " +saveDate+ " a las "+saveHora;
+
+    </script>
 
 
 @endsection

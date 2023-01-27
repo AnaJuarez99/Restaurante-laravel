@@ -15,8 +15,6 @@
 
                 <div class="container mt-5" style="max-width: 540px">
                     
-                    
-                    
                     <div id='full_calendar_events' class="micalendar overflow-auto"></div>
 
                        <div id="bloqueHoras" class="d-none" style="background-color: rgb(0, 0, 0)">
@@ -26,13 +24,6 @@
                     </div> 
                 </div>
 
-                    
-                   
-                    
-                    
-                    
-                    
-                </div>
 
     </div>
 
@@ -128,14 +119,15 @@
                             type: 'delete'
                         },
                         
-                        success: function (response) {
+                        success: function (response) { var contador=0;
                             document.getElementById("bloqueHoras").classList.remove('d-none');
                             var element = document.getElementById("horas");
                             element.innerHTML='';
+                           
                             response.forEach(function (response){
                             
-                            element.insertAdjacentHTML("afterbegin","<a href='/reserva'><button style='border:black 2px solid' >"+response['hora']+"</button></a></br>")
-                            
+                            element.insertAdjacentHTML("afterbegin","<input id='id"+contador+"' value='"+response['id']+"' type='hidden'>"+""+"</input><input id='data' value='"+start+"' type='hidden'>"+""+"</input> <a><button style='border:black 2px solid' id='"+contador+"' value='"+response['hora']+"' onClick='datos(this)'>"+response['hora']+"</button></a></br>")
+                            contador++;
                             });
                             $('html,body').animate({
                                 scrollTop: $("#bloqueHoras").offset().top},
@@ -148,6 +140,16 @@
         });
         function displayMessage(message) {
             toastr.success(message, 'Event');            
+        }
+
+        function datos(element) {
+            
+            var searchID=element.id
+            var date =document.getElementById("data").value;
+            var hora =document.getElementById(searchID).value;
+            var idHour =document.getElementById("id"+searchID).value;
+
+            window.location.href = "reserva?date=" + date + "&hora=" + hora+ "&id="+idHour;          
         }
     </script>
     
