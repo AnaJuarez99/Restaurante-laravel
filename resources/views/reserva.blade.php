@@ -213,6 +213,7 @@
                     <input id="mostrarHora" value="" type="text" disabled>
 
 
+                    @if(!Auth::check())
                     <div class="row">
                         <div class="col">
                             <label for="nombre" class="form-label">Nombre:</label>
@@ -226,6 +227,7 @@
                         </div>
                         <br>
                     </div>
+                    @endif
 
                    <!-- <div class="row">
                         <div class="col">
