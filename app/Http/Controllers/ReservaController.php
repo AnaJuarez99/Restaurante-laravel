@@ -117,9 +117,6 @@ class ReservaController extends Controller
         ]);
 
 
-
-        
-
         if(Auth::user()){
             $id_cliente=Auth::user()->id;
             return view('confirmReserva')->with(["reser"=>Reserva::where('id_cliente',$id_cliente)->get()]);
