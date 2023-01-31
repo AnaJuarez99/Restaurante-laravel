@@ -4,9 +4,10 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ReservaController;
 use App\Http\Controllers\Api\AuthController;
+use App\Http\Controllers\Api\misreservasController;
 
 /*
-|--------------------------------------------------------------------------
+|----------------------------\----------------------------------------------
 | API Routes
 |--------------------------------------------------------------------------
 |
@@ -23,5 +24,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::post('/auth/register', [AuthController::class, 'createUser']);
 Route::post('/auth/login', [AuthController::class, 'loginUser']);
 
-Route::get('/addreserva', [ReservaController::class, 'addReserva'])->middleware('auth:sanctum');
-Route::get('/misreservas', [ReservaController::class, 'misReservas'])->middleware('auth:sanctum');
+Route::post('/misreservas', [misreservasController::class, 'addReserva'])->middleware('auth:sanctum');
+Route::get('/misreservas', [misreservasController::class, 'misReservas'])->middleware('auth:sanctum');
+Route::delete('/misreservas', [misreservasController::class, 'deleteReserva'])->middleware('auth:sanctum');
