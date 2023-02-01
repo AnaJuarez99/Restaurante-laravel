@@ -46,11 +46,11 @@ class misreservasController extends Controller
     {
         $id_cliente= $request ->id_cliente;
         if(!$id_cliente){
-            return response()->json(["Error"=>"No se pudo crear la reserva"], 404);
+            return response()->json(["Error"=>"No se pudo borrar la reserva"], 404);
         }
         $reserva=Reserva::find($id_cliente);
         if(!$reserva){
-            return response()->json(["Error"=>"No se pudo crear la reserva"], 404);
+            return response()->json(["Error"=>"No se pudo borrar la reserva"], 404);
         }
         $reserva->delete();
         return response()->json(["Data"=>$reserva]);
