@@ -27,3 +27,6 @@ Route::post('/auth/login', [AuthController::class, 'loginUser']);
 Route::post('/misreservas', [misreservasController::class, 'addReserva'])->middleware('auth:sanctum');
 Route::get('/misreservas', [misreservasController::class, 'misReservas'])->middleware('auth:sanctum');
 Route::delete('/misreservas', [misreservasController::class, 'deleteReserva'])->middleware('auth:sanctum');
+
+Route::get('/horarios', [misreservasController::class, 'gethorarios']);
+Route::post('/horas', [misreservasController::class, 'gethoras']);
