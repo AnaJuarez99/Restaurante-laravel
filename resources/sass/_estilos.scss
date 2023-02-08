@@ -282,7 +282,13 @@ input[type=checkbox]{
   }
   
 
-  
+  .animacion {
+  transition: transform 0.5s;
+}
+
+.animacion:hover {
+  transform: rotate(360deg);
+}
 
   footer{
 	font-size: medium;

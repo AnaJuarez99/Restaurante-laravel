@@ -36,16 +36,16 @@
 	<div id="carta" class="container-sm"></div>
 		<div class="row">
 			<div class="col-sm">
-				<img  src="./fotos/entrante.PNG" alt="menu_entrante">
+				<img class="animacion" src="./fotos/entrante.PNG" alt="menu_entrante">
 			</div>
 	
 	
 			<div  class="col-sm">
-				<img src="./fotos/tierra.PNG" alt="menu_tierra">
+				<img class="animacion" src="./fotos/tierra.PNG" alt="menu_tierra">
 			</div>
 	
 			<div  class="col-sm">
-				<img src="./fotos/tipico.PNG" alt="menu_tipico">
+				<img class="animacion" src="./fotos/tipico.PNG" alt="menu_tipico">
 			</div>
 		</div>
 
