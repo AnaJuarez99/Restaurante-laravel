@@ -1,11 +1,25 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+
+<h1>Instalación</h1>
+<p>A continuación se detallan los pasos necesarios para instalar la aplicación:</p>
+<ol>
+<li>Descargate el proyecto y descomprimelo.</li>
+  <li>Abre una terminal y sitúate en el directorio de la aplicación.</li>
+  <li>Ejecuta el siguiente comando para instalar las dependencias necesarias:</li>
+  <pre><code>composer install</code></pre>
+  <li>Una vez instaladas las dependencias, ejecuta el siguiente comando para instalar Laravel/UI:</li>
+  <pre><code>composer require laravel/ui</code></pre>
+  <li>Por último, ejecuta el siguiente comando para compilar los assets:</li>
+  <pre><code>npm install && npm run dev</code></pre>
+</ol>
+<p>Con estos pasos, deberías tener la aplicación lista para ser utilizada.</p>
 
 ## About Laravel
 
